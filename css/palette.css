@@ -1,0 +1,35 @@
+:root {
+	/* dark */
+	--dark-bg: 		    #002b36;
+	--dark-bg-alt: 	    #073642;
+	--dark-header: 	    #93a1a1;
+	--dark-fg: 		    #839496;
+	--dark-accent1: 	#b58900;
+	--dark-accent2: 	#2aa198;
+
+	/* light */
+	--light-bg: 		#fdf6e3;
+	--light-bg-alt: 	#eee8d5;
+	--light-header: 	#586e75;
+	--light-fg: 		#657b83;
+	--light-accent2: 	#b58900;
+	--light-accent1: 	#2aa198;
+}
+
+.light {
+	--bg: 		var(--light-bg);
+	--bg-alt: 	var(--light-bg-alt);
+	--fg: 		var(--light-fg);
+	--header: 	var(--light-header);
+	--accent1: 	var(--light-accent1);
+	--accent2: 	var(--light-accent2);
+}
+
+.dark {
+	--bg: 		var(--dark-bg);
+	--bg-alt: 	var(--dark-bg-alt);
+	--fg: 		var(--dark-fg);
+	--header: 	var(--dark-header);
+	--accent1: 	var(--dark-accent1);
+	--accent2: 	var(--dark-accent2);
+}
